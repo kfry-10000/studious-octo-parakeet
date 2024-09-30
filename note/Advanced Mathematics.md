@@ -19,7 +19,7 @@ $期中20\%+期末55\%+考勤5\%+作业10\%+Easylearning助学平台10\%$
 
   $[0,\frac{1}{n}],[\frac{1}{n},\frac{2}{n}],\cdots,[\frac{n-1}{n},1]$  
 
-  区间长：$\vartriangle\!x=\frac{1}{n}$  
+  区间长： $\vartriangle\!x=\frac{1}{n}$  
   第 $i$ 个矩形的高： $h_i=(\frac{i}{n})^2$
   第 $i$ 个矩形的面积： $s_i=(\frac{i}{n})^2\frac{1}{n}\qquad i=1,2,\cdots,n$  
   $S_n=(\frac{1}{n})^2\cdot\frac{1}{n}+(\frac{2}{n})^2\cdot\frac{1}{n}+\cdots+(\frac{n-1}{n})^2\cdot\frac{1}{n}+(\frac{n}{n})^2\cdot\frac{1}{n}=\frac{1}{n^3}[1^2+2^2+\cdots+(n-1)^2+n^2]=\frac{1}{6}(1+\frac{1}{n})(2+\frac{1}{n})$  
@@ -31,7 +31,7 @@ $期中20\%+期末55\%+考勤5\%+作业10\%+Easylearning助学平台10\%$
 - 曲线的切线 曲线在 $P$ 的切线 $k=\lim\limits_{Q\to P}k_{QP}$
 ### 变速直线运动的瞬时速度问题  
 $s(t)=\frac{1}{2}gt^2$  
-考虑在 $[t_0,t_0+\vartriangle\!t]$ 时间内的运动
+考虑在 $[t_0,t_0+\vartriangle \! t]$ 时间内的运动
 $\overline{v}=\dfrac{\vartriangle\!s}{\vartriangle\!t}$  
 作业1-1
 ## 函数
@@ -42,6 +42,6 @@ $\overline{v}=\dfrac{\vartriangle\!s}{\vartriangle\!t}$
 $Q=\{ x|x=\frac{p}{q},\;p,q\in Z \}$  
 并集 $A\cup B$  
 交集 $A\cap B$  
-差集 $A\backslash B=\left\{ x|x\in A \ \&\ x\notin B\right\}$  
+差集 $A\backslash B=\{ x|x\in A \ \&\ x\notin B \}$  
 余集 $C_BA=A\backslash B\,(A\subset B)$
 ### 函数的几种特性
