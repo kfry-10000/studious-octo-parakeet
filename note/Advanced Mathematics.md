@@ -39,7 +39,7 @@ $\overline{v}=\dfrac{\vartriangle\!s}{\vartriangle\!t}$
 #### 集合
 集合简称集 元素简称元  
 记作 $a\in M$  
-$Q=\left\{ x|x=\frac{p}{q},\;p,q\in Z\right\}$  
+$Q=\{ x|x=\frac{p}{q},\;p,q\in Z \}$  
 并集 $A\cup B$  
 交集 $A\cap B$  
 差集 $A\backslash B=\left\{ x|x\in A \ \&\ x\notin B\right\}$  
