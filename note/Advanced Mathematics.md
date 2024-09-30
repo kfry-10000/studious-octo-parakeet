@@ -33,6 +33,6 @@ $\overline{v}=\dfrac{\vartriangle\!s}{\vartriangle\!t}$
 $Q=\{ x|x=\frac{p}{q},\;p,q\in Z\}$  
 并集 $A\cup B$  
 交集 $A\cap B$  
-差集 $\{x|x\in A\;\&\;x\notin B \}$
+差集 $\{x|x\in A\;\&\;x\notin B\}$
 余集 $A B$()
 #### 函数的几种特性
