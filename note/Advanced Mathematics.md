@@ -6,7 +6,7 @@
 Sep. 30th, 2024 课程介绍、微积分的一些基本问题  
 
 > 成绩构成：  
-> 期中 $20\%+$ 期末 $55\%+$ 考勤 $5\%+$ 作业 $10\%+$ Easylearning助学平台 $10\%$  
+> 期中 $20\% +$ 期末 $55\% +$ 考勤 $5\% +$ 作业 $10\% +$ Easylearning助学平台 $10\%$  
 
 # 极限论     
 ## 微积分的一些基本问题
@@ -22,9 +22,9 @@ Sep. 30th, 2024 课程介绍、微积分的一些基本问题
   区间长： $\vartriangle\!x=\frac{1}{n}$  
   第 $i$ 个矩形的高： $h_i=(\frac{i}{n})^2$
   第 $i$ 个矩形的面积： $s_i=(\frac{i}{n})^2\frac{1}{n}\qquad i=1,2,\cdots,n$  
-  $S_n=(\frac{1}{n})^2\cdot\frac{1}{n}+(\frac{2}{n})^2\cdot\frac{1}{n}+\cdots+(\frac{n-1}{n})^2\cdot\frac{1}{n}+(\frac{n}{n})^2\cdot\frac{1}{n}=\frac{1}{n^3}[1^2+2^2+\cdots+(n-1)^2+n^2]=\frac{1}{6}(1+\frac{1}{n})(2+\frac{1}{n})$  
+  $$\begin{align*}S_n&=(\frac{1}{n})^2\cdot\frac{1}{n}+(\frac{2}{n})^2\cdot\frac{1}{n}+\cdots+(\frac{n-1}{n})^2\cdot\frac{1}{n}+(\frac{n}{n})^2\cdot\frac{1}{n}\\&=\frac{1}{n^3}[1^2+2^2+\cdots+(n-1)^2+n^2]\\&=\frac{1}{6}(1+\frac{1}{n})(2+\frac{1}{n})\end{align*}$$  
   
-  $S=\lim\limits_{n\to\infty}S_n=\lim\limits_{n\to\infty}\frac{1}{6}(1+\frac{1}{n})(2+\frac{1}{n})=\frac{1}{3}$
+  $$S=\lim\limits_{n\to\infty}S_n=\lim\limits_{n\to\infty}\frac{1}{6}(1+\frac{1}{n})(2+\frac{1}{n})=\frac{1}{3}$$
 
 ### 切线问题  
 - 圆的切线  
@@ -43,5 +43,5 @@ $Q=\{ x|x=\frac{p}{q},\;p,q\in Z \}$
 并集 $A\cup B$  
 交集 $A\cap B$  
 差集 $A\backslash B=\{ x|x\in A \ \&\ x\notin B \}$  
-余集 $C_BA=A\backslash B\,(A\subset B)$
+余集 $\complement_BA=A\backslash B\,(A\subset B)$
 ### 函数的几种特性
