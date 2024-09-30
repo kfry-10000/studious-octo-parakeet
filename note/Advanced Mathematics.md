@@ -39,9 +39,9 @@ $\overline{v}=\dfrac{\vartriangle\!s}{\vartriangle\!t}$
 #### 集合
 集合简称集 元素简称元  
 记作 $a\in M$  
-$Q=\{ x|x=\frac{p}{q},\;p,q\in Z\}$  
+$Q=\left\{ x|x=\frac{p}{q},\;p,q\in Z\right\}$  
 并集 $A\cup B$  
 交集 $A\cap B$  
-差集 $\{ x|x\in A\;\&\;x\notin B\}$
-余集 $A B$()
+差集 $A\backslash B=\left\{ x|x\in A \ \&\ x\notin B\right\}$  
+余集 $C_BA=A\backslash B\,(A\subset B)$
 ### 函数的几种特性
