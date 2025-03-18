@@ -158,3 +158,17 @@ remain for an 11th year
 > 翻译成中文时需要补充逻辑漏洞
 
 Undergraduates are in the key period of their life development, who are logical, enthusiastic, creative, and brave on chanlleges. However, in front the transforming society, competition, and problems on nu
+
+## Mar. 12th, 25
+
+> drones have got us covered **slashing** the journey to a mere 5 minutes  
+> less commercialized  
+> regular  
+> logistics
+> metropolises
+> metropolitan
+> sticker price
+> sedan  
+> mount a challenge  
+> initiate  
+> 
