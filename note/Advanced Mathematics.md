@@ -660,3 +660,308 @@ $$(u\cdot v)^{(n)}=u^{(n)}v+nu^{n-1}v^\prime+\cdots+\dfrac{n(n-1)}{2!}u^{(n-2)}v
 #### 微分的求法
 
 $$\mathrm{d}y=f^\prime(x)\mathrm{d}x$$
+
+#### 相关变化率
+
+**两个相互依赖的变化率**称为相关变化率
+
+## 微分中值定理与导数的应用
+
+### 微分中值定理
+
+> 定义 设函数 $f(x)$ 在 $U(x_0,\delta)$ 内有定义，如果 $\forall x\in U^\circ(x_0,\delta)$ ，都有  
+> 1. $f(x)\le f(x_0)$ ，则称 $f(x_0)$ 为 $f(x)$ 的**极大值**，称 $x_0$ 为 $f(x)$ 的**极大值点**
+> 2. $f(x)\ge f(x_0)$ ，则称 $f(x_0)$ 为 $f(x)$ 的**极小值**，称 $x_0$ 为 $f(x)$ 的**极小值点**
+>
+> 极大值、极小值统称为**极值**  
+> 极大值点、极小值点统称为**极值点**
+
+#### 费马(Fermat)定理
+
+> 定理 设函数 $y=f(x)$ 在点 $x_0$ 的某邻域内有定义且在点 $x_0$ 处可导，若 $x_0$ 为 $y=f(x)$ 的极值点，则必有 $f^\prime(x_0)=0$
+
+#### 罗尔(Rolle)定理
+
+> 定理：设函数 $f(x)$ 满足条件：
+> 1. 在闭区间 $[a,b]$ 上连续；
+> 2. 在开区间 $(a,b)$ 内可导；
+> 3. $f(a)=f(b)$ ；
+>
+> 则在 $(a,b)$ 内至少存在一点 $\xi$ ，使 $f^\prime(\xi)=0$
+
+注意:  罗尔定理的三个条件**是充分的**，但**不是必要的**。若罗尔定理的三个条件中有一个不满足，其结论**可能成立**也**可能不成立**。
+
+#### 拉格朗日中值定理
+
+> 定理：设函数 $f(x)$ 满足条件：
+> 1. 在闭区间 $[a,b]$ 上连续；
+> 2. 在开区间 $(a,b)$ 内可导；
+>
+> 则在$ (a,b)$ 内至少存在一点 $\xi$ ，使  
+> $$f(b)-f(a)=f^\prime(\xi)(b-a)\quad(\xi\in(a,b))$$
+
+注意：与罗尔定理相比条件中去掉了 $f(a)=f(b)$ ，结论亦可写成  
+$$f^\prime(\xi)=\dfrac{f(b)-f(a)}{b-a}$$
+
+增量 $\vartriangle\!y$ 的精确表达式  
+$$\vartriangle\!y=f^\prime(x+\theta\vartriangle\!x)\cdot\!\vartriangle\!x\quad(0<\theta<1)$$
+拉格朗日中值公式又称**有限增量公式**。
+拉格朗日中值定理又称**有限增量定理（微分中值定理）**。
+
+> 推论1 如果函数 $f(x)$ 在区间 $I$ 上的导数恒为零，那么 $f(x)$ 在区间 $I$ 上是一个常数。  
+> 推论2 如果在区间 $I$ 上 $f^\prime(x)=g^\prime(x)$ 恒成立，则在区间 $I$ 上有 $f(x)=g(x)+C$ 。
+
+#### 柯西(Cauchy)中值定理
+
+> 定理 设函数 $f(x),g(x)$ 满足条件：  
+> 1. 在闭区间 $[a,b]$ 上连续；
+> 2. 在开区间 $(a,b)$ 内可导，且 $g^\prime(x)\not ={0}$ ；
+>
+> 则在$ (a,b)$ 内至少存在一点 $\xi$ ，使  
+> $$\dfrac{f(a)-f(b)}{g(a)-g(b)}=\dfrac{f^\prime(\xi)}{g^\prime(\xi)}$$
+
+### 洛必达法则
+
+#### 不（未）定型
+
+> 定义 如果当 $x\rightarrow a$ 时，两个函数 $f(x)$ 与 $F(x)$ 都趋于零或都趋于无穷大，那么极限 $\lim\limits_{x\rightarrow a}\dfrac{f(x)}{F(x)}$ 可能存在，也可能不存在，通常把这种极限称为 $\dfrac{0}{0}$ 或 $\dfrac{\infty}{\infty}$ **不定型**
+
+#### 不定型极限和*L'Hospital*法则
+
+> 定理： （洛必达（*L'Hospital*）法则）  
+> 设函数 $f(x)$ 满足：  
+> 1. $\lim\limits_{x\rightarrow a}f(x)=\lim\limits_{x\rightarrow a}F(x)=0$ ；  
+> 2. $f(x),F(x)$ 在 $a$ 点的某去心邻域内可导，且 $F^\prime(x)\not ={0}$ ；  
+> 3. $\lim\limits_{x\rightarrow a}\dfrac{f^\prime(x)}{F^\prime(x)}$ 存在（或为无穷大）；  
+>
+> 则有：
+> $$\lim\limits_{x\rightarrow a}\dfrac{f(x)}{F(x)}=\lim\limits_{x\rightarrow a}\dfrac{f^\prime(x)}{F^\prime(x)}$$
+
+证明：略（柯西定理）
+
+> 定理：  
+> 设函数 $f(x)$ 满足：  
+> 1. $\lim\limits_{x\rightarrow a}f(x)=\lim\limits_{x\rightarrow a}F(x)=\infty$ ；  
+> 2. $\lim\limits_{x\rightarrow a}\dfrac{f^\prime(x)}{F^\prime(x)}$ 存在（或为无穷大）  
+>
+> 则有：
+> $$\lim\limits_{x\rightarrow a}\dfrac{f(x)}{F(x)}=\lim\limits_{x\rightarrow a}\dfrac{f^\prime(x)}{F^\prime(x)}$$
+
+注： 若 $\lim\limits_{x\rightarrow a}\dfrac{f^\prime(x)}{F^\prime(x)}$ 仍为不定型，且 $f^\prime(x),F^\prime(x)$ 满足定理的条件，可以继续使用洛必达法则，即  
+$$\lim\limits_{x\rightarrow a}\dfrac{f(x)}{F(x)}=\lim\limits_{x\rightarrow a}\dfrac{f^\prime(x)}{F^\prime(x)}=\lim\limits_{x\rightarrow a}\dfrac{f^{\prime\prime}(x)}{F^{\prime\prime}(x)}=\cdots$$
+
+### 泰勒公式
+
+#### 问题的提出
+
+$f(x)=f(x_0)+f^\prime(x_0)(x-x_0)+o(x-x_0)$  
+$R_n=o(x-x_0)$  
+$f(x)\approx P_n=f(x_0)+f^\prime(x_0)(x-x_0)$
+
+精度不够高
+
+#### 泰勒(Taylor)公式
+
+> 定理 设函数 $f(x)$ 在领域 $U(x_0,\delta)$ 内具有直到 $(n+1)$ 阶导数，则 $\forall x\in U(x_0,\delta)$ ，有  
+> $$f(x)=f(x_0)+f^\prime(x_0)(x-x_0)+\dfrac{f^{\prime\prime}(x_0)}{2!}(x-x_0)^2+\cdots+\dfrac{f^{(n)}(x_0)}{n!}(x-x_0)^n+R_n(x)$$
+> 其中 $R_n(x)=\dfrac{f^{(n+1)}(\xi)}{(n+1)!}(x-x_0)^{n+1}$ 拉格朗日余项  
+> 因为 $\lim\limits_{x\rightarrow x_0}\dfrac{R_n(x)}{(x-x_0)^n}=0$ 即 $R_n(x)=o[(x-x_0)^n]$ 皮亚诺余项
+
+麦克劳林公式
+
+函数单调性
+
+> 定理
+> 1. 如果在 $(a,b)$ 上 $f^\prime(x)>0$ **严格单调递增**
+
+### 函数的极值与最值
+
+#### 函数极值的定义
+
+#### 函数极值的求法
+
+### 函数的凹凸性
+
+#### 凹凸性的定义
+
+#### 凹凸性的判定
+
+### 曲率
+
+#### 弧微分
+
+设函数 $f(x)$ 在 $(a,b)$ 上具有连续导数  
+$M_0(x_0,y_0)$ 度量基点  
+$M(x,y)$ 曲线上任一点  
+规定：  
+1. 曲线的正向与 $x$ 增大的方向一致
+2. 有向线段 $\overset{\frown}{M_0M}$ 的长度为 $s$
+
+##### 弧微分的参数情形
+
+曲线弧为 $\begin{cases}
+  x=\varphi(t)\\y=\varphi(t)
+\end{cases},\quad(\alpha\le t\le\beta)$
+
+##### 弧微分的极坐标情形
+
+曲线弧为 $r=r(\theta)\quad (\alpha\le t\le\beta)$  
+其中 $r(\theta)$ 在 $[\alpha,\beta]$ 上具有连续导数。  
+$\begin{cases}
+    x=r(\theta)\cos\theta\\y=r(\theta)\sin\theta
+  \end{cases}\quad(\alpha\le\theta\le\beta)
+$
+
+#### 曲率及其计算公式
+
+定义  
+弧段 $\overset{\frown}{MM^\prime}$ 的平均曲率为 $K=\left|\dfrac{\vartriangle\alpha}{\vartriangle s}\right|$
+
+> 注意 直线的曲率处处为零
+
+##### 曲率的计算公式
+
+设 $y=f(x)$ 二阶可导  
+$\because\tan\alpha=y^\prime$  
+$\therefore\alpha=\arctan y^\prime\Rightarrow\mathrm{d}\alpha=\dfrac{y^{\prime\prime}}{1+{y^\prime}^2}\mathrm{d}x,\quad又\because\mathrm{d}s=\sqrt{1+{y^\prime}^2}\mathrm{d}x$  
+$\therefore K=\left|\dfrac{\mathrm{d}\alpha}{\mathrm{d}s}\right|=\dfrac{|y^{\prime\prime}|}{(1+{y^\prime}^2)^\frac{3}{2}}$
+
+#### 曲率圆与曲率半径
+
+### 方程的近似解
+
+求近似实根的步骤：  
+1. 确定跟的大致范围——根的隔离
+   确定一个区间 $[a,b]$ 使所求的根是位于这个区间内的唯一实根，区间 $[a,b]$ 称为所求实根的隔离区间  
+2. 以根的隔离区间的端点作为根的初始近似值，逐步改善根的近似值的精确度，直至求得满足精确度要求的近似实根
+
+#### 二分法
+
+如题
+
+#### 切线法（牛顿法）
+
+设 $f(x)$ 在 $[a,b]$ 上具有二阶导数， $f(a)\cdot f(b),0$ 且 $f^\prime(x)$ 及 $f^{\prime\prime}(x)$ 在 $[a,b]$ 上保持定号  
+则方程 $f(x)=0$ 在 $(a,b)$ 内有唯一实根 $\xi$ ， $[a,b]$ 是根的一个隔离区间
+> 定义　用曲线弧一端的切线来代替曲线弧，从而求出方程实根的近似值，这种方法叫做切线法（牛顿法）
+
+https://iamhxb.github.io/iamhxb  
+https://www.xinjiaoyu.cc
+
+## 不定积分
+
+### 原函数与不定积分的概念
+
+#### 原函数
+
+> 定义 设 $f(x)$ 在区间 $I$ 内有定义，若存在可导函数 $F(x)$ 使对每一个 $x\in I$ 有
+> $$F^\prime(x)=f(x)\quad or\quad\mathrm{d}F(x)=f(x)\mathrm{d}x$$
+> 则称 $F(x)$ 为 $f(x)$ 在区间 $I$ 内的一个原函数
+
+#### 不定积分
+
+> 定义 若 $F(x)$ 使 $f(x)$ 在区间 $I$ 内的一个原函数，则 $f(x)$ 在区间 $I$ 内的**全体**原函数称为 $f(x)$ 在区间 $I$ 内的**不定积分**，记为 $\int f(x)\,\mathrm{d}x$
+> $$\int f(x)\,\mathrm{d}x=F(x)+C$$
+
+#### 不定积分的几何意义
+
+将 $f(x)$ 的原函数的图形称为 $f(x)$ 的**积分曲线**  
+$f(x)$ 的不定积分表示的一簇积分曲线，而 $f(x)$ 正是积分曲线的斜率  
+**在横坐标相同的点处每条曲线上的切线斜率相等**，都为 $f(x)$ ，即在横坐标相同的点处各切线相互平行
+
+#### 不定积分与微分(导数)的关系
+
+求不定积分的运算与微分运算是**互逆**的，由此根据微分公式可得积分公式
+
+### 换元积分法
+
+#### 第一类换元法
+
+example  
+$\int\cos2x\,\mathrm{d}x=\frac{1}{2}\int\cos2x\,\mathrm{d}2x=\sin2x+C$
+
+> 定理1 设 $f(x)$ 具有原函数 $F(u),u=\varphi(x)$ 可导，则有换元公式  
+> $$\int f[\varphi(x)]\varphi^\prime(x)\,\mathrm{d}x=\left[\int f(u)\,\mathrm{d}u\right]_{u=\varphi(x)}$$
+
+#### 第二类换元法
+
+省流：三角换元、双曲换元、随便哪个都能换
+
+example $\int x^5\sqrt{1-x^2}\,\mathrm{d}x$  
+令 $x=\sin t\Rightarrow\mathrm{d}x=\cos t\mathrm{d}t$  
+$\int x^5\sqrt{1-x^2}\,\mathrm{d}x=\int(\sin t)^5\sqrt{1-\sin^2t}\cos t\mathrm{d}t$
+
+> 定理2 设 $x=\psi(t)$ 是单调、可导的函数，且 $\psi^\prime(t)\not ={0}$  
+> 又设 $f[\psi(t)]\psi^\prime(t)$ 具有原函数 $\Phi(t)$ ，则有换元公式  
+> $$\int f(x)\,\mathrm{d}x=\left[\int f[\psi(t)]\psi^\prime(t)\,\mathrm{d}t\right]_{t=\overline{\psi}(x)}$$  
+> 其中 $\overline{\psi}(x)$ 是 $x=\psi(t)$ 的反函数
+
+说明  
+1. 三角代换目的是**化掉根式**
+   1. $\sqrt{a^2-x^2}\Rightarrow x=a\sin t$
+   2. $\sqrt{a^2+x^2}\Rightarrow x=a\tan t$
+   3. $\sqrt{x^2-a^2}\Rightarrow x=a\sec t$
+2. 还可使用**双曲代换**
+3. 为了化掉根式，代换函数根据被积函数的情况来决定
+
+### 分部积分法
+
+设函数 $u=u(x)$ 和 $v=v(x)$ 具有**连续导数**，则  
+$$(uv)^\prime=u^\prime v+uv^\prime\Rightarrow uv^\prime=(uv)^\prime-u^\prime v$$
+两边作不定积分，可得  
+$$\int u\,\mathrm{d}v=uv-\int v\,\mathrm{d}u$$
+
+### 几种特殊类型函数的积分
+
+#### 有理函数的积分
+
+将有理函数化为部分分式之和
+
+## 定积分
+
+### 定积分的定义
+
+$$\int^b_af(x)\,\mathrm{d}x=I=\lim\limits_{\lambda\rightarrow0}\sum\limits_{i=1}^nf(\xi_i)\vartriangle\!x_i$$
+
+### 定积分的几何意义
+
+ 性质
+
+ 线性性  
+$$\int^b_af(x)\pm g(x)\,\mathrm{d}x=\int^b_af(x)\,\mathrm{d}x\pm\int^b_ag(x)\,\mathrm{d}x$$
+ $$\int^b_akf(x)\,\mathrm{d}x=k\int^b_af(x)\,\mathrm{d}x$$
+ 
+ 区间可加性
+$$\int^b_af(x)\,\mathrm{d}x=\int^c_af(x)\,\mathrm{d}x+\int^b_cf(x)\,\mathrm{d}x$$
+
+> 性质7(积分中值公式) 如果函数 $f(x)$ 在闭区间 $[a,b]$ 上连续，则在积分区间 $[a,b]$ 上至少存在一个点 $\xi$ ，使  
+> $$\int_a^bf(x)\,\mathrm{d}x=f(\xi)(b-a)\qquad(a\le\xi\le b)$$
+>
+> 性质8  
+> $$\int_a^bf(x)g(g)\,\mathrm{d}x=f(\xi)\int_a^bg(x)\,\mathrm{d}x$$
+
+### 微积分基本公式
+
+#### 换元公式
+
+> 定理 假设
+> 1. $f(x)$ 在 $[a,b]$ 上连续；
+> 2. 函数 $f=\varphi(t)$ 在 $[\alpha,\beta]$ 上是单值的且有连续导数；
+> 3. 当 $t$ 在区间 $[\alpha,\beta]$ 上变化时， $x=\varphi(t)$ 的值在 $[a,b]$ 上变化，且 $\varphi(\alpha)=a,\,\varphi(\beta)=b$
+>
+> 则有
+> $$\int_a^bf(x)\,\mathrm{d}x=\int_\alpha^\beta f\left[\varphi(t)\right]\varphi^\prime(t)\,\mathrm{d}t$$
+
+#### 定积分分部积分
+
+#### 广义积分
+
+$$\int_a^bu\,\mathrm{d}v=[uv]_a^b-\int_a^bv\,\mathrm{d}u$$
+
+$$\begin{align}
+  \nonumber
+  \int_{-\infty}^{+\infty}f(x)\,\mathrm{d}x&=\int_{-\infty}^cf(x)\,\mathrm{d}x+\int_c^{+\infty}f(x)\,\mathrm{d}x\\\nonumber&=\lim\limits_{a\rightarrow-\infty}\int_a^cf(x)\,\mathrm{d}x+\lim\limits_{b\rightarrow+\infty}\int_c^bf(x)\,\mathrm{d}x
+\end{align}$$
+
+### 定积分的元素法
+
