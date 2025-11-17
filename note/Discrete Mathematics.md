@@ -66,3 +66,9 @@ $P\leftrightarrow Q$ 相当于 $(P\to Q)\land(Q\to P)$
 $$A\leftrightarrow B\iff (A\land B)\lor(\lnot A\land B)$$
 
 范式  
+  
+## 第三章
+
+### 3-9 集合的划分和覆盖
+ 
+### 3-11 相容关系

@@ -42,3 +42,43 @@ yxcvbnm,.-
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | N.格 | ich | du | er | sie | es | wir | sie | Sie | ihr |
 
+1. 明显后鼻音还可能有 nde，nte，如 rund，runde，bunt，bunte  
+2. 字母 c 的发言，德语本土词中没有单独c发音的。 在外来词中，c 和原因 e，i 相拼时发 /ts/ 音。 其余时候发 /k/ 。
+3. ch的发音
+   1. 一般发“洗”（喉音），比如 China，ich
+   2. 在/a//o//u//au/发“赫”，比如 Buch
+   3. 外来词，英语/k/，法语
+4. 复合元音 ei 念做“爱”，
+
+ 1. Wartest du auch schon lange? 一般来说德语的谓语动词（中变位的那个动词）是放在第二个位置的。 Ja-Nein-Frage 除外（变位放在第一位，句末要用声调二声）  Ich mache Übungen. -Machst du Übungen?
+
+1. 德语的现在时动词变位分为表1、表2、表3和特殊形式四种。表1-3词干的辅音发音是不会发生变化且一定是按照词尾变化规则来的。
+2. 根据上述情况可得：特殊形式是指动词词干中的辅音发音发生了变化（A）或者词尾变化不符合规律的（B），甚至是面目全非的（C）。 
+
+> nicht adv. = not
+> zoll m. 海关
+> m. Chinese, -n;  f. Chinesin, -en
+> m. Koffer,-   ;  f. Kleidun, -en/Sg; Buch, Bücher 
+> m. Pass, Päse
+> bitte adv. = please
+> ihr 物主代词
+> f. Frau
+
+重点句型
+> 1. Das weiß ich nicht. 非主语的成分提前表示强调，后面主谓倒装
+> 2. Wie heißen Sie? heißen vt. Sie Personalpronomen  Wie adv. = how(在针对个人信息提问的时候会代替 was Pron.，如 Wie ist ihr Name?)
+> 3. Dali ist der Vorname. Wang ist der Familienname.
+> 4.
+> 5. Was ist im Koffer?  was Pron=what   m. Koffer    im=in dem(第三格阳性)
+
+1. 德语句子里的谓语动词一般放在第二个位置，一般疑问句除外（谓语动词直接放在第一位）。
+   陈述句： Er kommt aus Shanghai.降调
+   特殊问句： Wer kommt aus Shanghai?可升调（客气）可降调（不客气）
+   一般问句： Kommt er aus Shanghai?升调、  
+
+| 人称代词 | ich | du | er | sie | es | wir | sie | Sie | ihr |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 物主代词 | mein | dein | sein | ihr | sein | unser | ihr | Ihr | euer |
+ 
+>  machen  = make + ( do + n. )
+>          

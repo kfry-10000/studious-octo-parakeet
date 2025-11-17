@@ -171,4 +171,122 @@ Undergraduates are in the key period of their life development, who are logical,
 > sedan  
 > mount a challenge  
 > initiate  
+
+Chinese myths often seem beyond imagination to the western. Faced with surging flood, Da Yu followed his father’s teachings, persisting for 13 years and eventually conquered the flood; confronted with mountains standing in the front of the house, what Yu Gong chose was leading the entire family to move the mountains instead of relocating; under 10 scorching suns, Hou Yi decided to shoot down 9 of them, leaving only one to shine the earth. These myths essentially reflect the Chinese people’s fight spirit, the belief that my fate is determined by myself rather than the God. Throughout the development of Chinese civilization, this unyielding spirit of resistance has become a cultural foundation, which is one of the key reasons why the Chinese nation stood firm to today.  
+The Chinese zodiac includes the Rat, Ox, Tiger, Rabbit, Loong, Snake, Horse, Goat, Monkey, Rooster, Dog, and Pig, of which origin is related to animal admiration. As ancient folk cultural symbols, each zodiac sign carries rich legends. The culture of the zodiac involves various aspects, such as the relationship between humans and themselves, humans and nature, and humans and society. And it comprehensively reflects the customs, thinking patterns, moral ethics, values, and aesthetic interests of different ethnicities. The traditional thoughts contained in zodiac culture highlight the importance that ancient Chinese society placed on animals in daily life and production. It also embodies the ecological ethics of harmonious coexistence between humans and animals, as well as the idea of unity between humans and nature in traditional Chinese culture.
+
+## Mar. 19th, 25
+
+> mysticism 神秘主义，玄学
+> fusion
+> astrology
+> divination divine
+> superstition
+> footfall
+> metaphysical 形而上学的
+> counter the unpredictability
+> captivate
+> fuel
+> far exceed
+
+To Western people, Chinese myths seem to be **exceptionally inconceivable**. Confronted with ( **under the threat of surging flood / suffered from** ) raging floods, Yu, Drawing lessons from his father's failure, eventually (so) managed to **tame** the flood **after** 13 years of perseverance (介词短语). **Blocked by** the big mountains, Yu Gong, instead of resettle, chose to remove the mountains with his family members. **Grilled / Scorched by** the 10 burning suns, Hou Yi **opted to** shoot down 9 of them, leaving only one to shine upon the earth ( **among which one was left to shine upon the earth** ). These mythical stories **emssentially embody( imply / indicate / illustrate / demonstrate / show / display / reveal / manifest / highlight / shed light on )** the struggling spirit of the Chinese nation to have their fate in their own hands rather than that of gods ( **which can be summarized---** ). This unyielding 
+
+> ad. + to 名词性结构 
+> (be) + ad. + of 与动词意义相同但语用效果不同，可用于下定义或表示长期状态
+> 科技文体中下定义多用名词性结构
+>
+
+p71 to p72 of
+
+## Mar. 26th, 25
+
+科技类文体往往是对一个现象或事物进行一个定性分析
+
+p96 6, p97 7
+UNIT5 红楼梦
+
+> immortalized
+
+## Apr. 2nd, 25
+
+用于论文摘要  offer an analysis of and a solution to
+
+第三册p128 6  p129 7
+
+> a fair lady
+
+The artisic achievement of A Dream of Red Mansions, so to speak, has attained an unimaginable sublimity. It is outstanding with its rigorous structure, vivid speeches, and above all, the striking images created. The characters in the book number as many as over 400. Not only have Jia Baoyu, Lin Daiyu and a dozen other main characters become household classical literary figures, but a good number of minor roles, some of whom
+
+论据
+
+## Apr. 9th, 25
+
+> unfiltered
+> vibrant
+> vibrate
+> glimpse
+
+## Apr. 16th, 25
+
+> Estimated at 7.8 billion currently, the world pop
+
+## Apr. 23ed, 25
+
+> reverse course
+> retaliate
+> sweepinng tariff plan
+> threshold
+
+### REFERENCE
+
+#### Reference
+
+- 间接引用
+- Paraphrase
+- 标明文献出处（）
+
+#### Quote
+
+- 直接引用
+- 原封不动
+- 双引号 “”
+
+#### Bibliography
+
+- 参考文献
+- 不是REFERENCE
+
+#### 使用 Reference 的目的
+
+- 研究手段
+- 解释定义
+- 观点论证
+
+#### 使用 Supported Reference 作为有效证据
+
+> collection 集著(Ed.) (Edited Collection)
+
+页码标注：期刊不加括号，编辑过的集著要加括号
+
+## Apr. 30th, 25
+> surge
+> domestic tourism revenue
+> significant
+> economic recovery
+> achieve a significant recovery
+> rebound
+
+摘抄于书中不用写页码
+Eds. 两个人写的 是书名 也要斜体
+
+> premature
+> invalid
+> sustained
+> persistent
+> permanent
+> considerable
+> minima
+> faint
+> weak
+> adverse
 > 
